@@ -47,6 +47,7 @@ body {
     width: 375px;
     height: 545px;
     border: 1px solid yellow;
+    background-color: #FFFFFF;
 }
 
 .user-info {
@@ -96,4 +97,28 @@ h2 {
 .img-desc {
     width: 375px;
     height: 375px;
+}
+
+.likes-class {
+    display: inline-block;
+    border: 1px solid brown;
+}
+
+.icons {
+    width: 104.34px;
+    height: 22.13px;
+    border: 1px solid lightsalmon;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons img {
+    height: 18.5px;
+    width: 18.5px;
+}
+
+h3 {
+    margin: 0 0 0 4px;
+    font-size: 13px;
+    font-weight: 800;
 }
