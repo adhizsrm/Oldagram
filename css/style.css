@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-design {
+    width: 375px;
+    height: 1767px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+/* header */
+.headr {
+    width: 375px;
+    height: 67px;
+    border-bottom: 1px solid #cfcfcf;
+    padding-top: 10px;
+}
+
+.headr-2 {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+.logo {
+    width: 127px;
+    height: 50px;
+    opacity: 100%;
+}
+
+.user-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+/*end-of-header*/
+
+/* section */
+
+.post-content {
+    margin-top: 7px;
+    width: 375px;
+    height: 545px;
+    border: 1px solid yellow;
+}
+
+.user-info {
+    width: 348px;
+    height: 34px;
+    border: 1px solid violet;
+    margin: 7px 0px 0px 12px;
+    display: flex;
+    align-items: center; /* Optional: vertically center the child */
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.post-content-user-avatar {
+    border: 1px solid greenyellow;
+    width: 34px;
+    height: 34px;
+}
