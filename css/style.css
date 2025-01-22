@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", serif;
 }
 
 .main-design {
@@ -52,7 +53,7 @@ body {
     width: 348px;
     height: 34px;
     border: 1px solid violet;
-    margin: 7px 0px 0px 12px;
+    margin: 7px 0px 5px 5px;
     display: flex;
     align-items: center; /* Optional: vertically center the child */
     padding-left: 3px;
@@ -63,4 +64,36 @@ body {
     border: 1px solid greenyellow;
     width: 34px;
     height: 34px;
+}
+
+.user-metadata{
+    display: inline-block;
+    padding-left: 3px;
+}
+
+.user-fullname {
+    width: 307px;   
+    height: 16px;
+    border: 1px solid brown;  
+}
+
+.user-location {
+    width: 307px;   
+    height: 16px;
+    border: 1px solid rgb(215, 166, 166); 
+}
+
+h1 {
+    font-size: 9px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 8px;
+    font-weight: 500;
+}
+
+.img-desc {
+    width: 375px;
+    height: 375px;
 }
